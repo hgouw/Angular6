@@ -11,6 +11,7 @@ import { Test5Component } from './test5/test5.component';
 import { Test6Component } from './test6/test6.component';
 import { Test7Component } from './test7/test7.component';
 import { Test8Component } from './test8/test8.component';
+import { Test9Component } from './test9/test9.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Test8Component } from './test8/test8.component';
     Test5Component,
     Test6Component,
     Test7Component,
-    Test8Component
+    Test8Component,
+    Test9Component
   ],
   imports: [
     BrowserModule,
