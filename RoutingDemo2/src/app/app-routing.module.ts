@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'departments', component: DepartmentListComponent },
   { path: 'departments/:id', component: DepartmentDetailComponent },
   { path: 'employees', component: EmployeeListComponent },
-  { path: '**', component: PageNotFoundComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
