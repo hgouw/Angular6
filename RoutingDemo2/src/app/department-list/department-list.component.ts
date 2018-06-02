@@ -19,7 +19,7 @@ export class DepartmentListComponent implements OnInit {
     { 'id': 1, 'name': 'COSC' },
     { 'id': 2, 'name': 'Mathematics' },
     { 'id': 3, 'name': 'Science' }
-  ]
+  ];
 
   constructor(private router: Router) { }
 
@@ -27,7 +27,7 @@ export class DepartmentListComponent implements OnInit {
   }
 
   onSelect(department) {
-      this.router.navigate(['/departments', department.id])
+      this.router.navigate(['/departments', department.id]);
   }
 
 }
